@@ -5,18 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
 
-        <section>
-            <input type='text' id="email" name="mejl">
-            <button type=" button" onclick="ValidateEmail()">Proveri</button>
-            <p id="demo"></p>
-        </section>
+    <div class="content">
+        <header>
+            <section class="brand">
+                <div class="logo">
 
-    </main>
+                </div>
+                <div class="name">
+                    <h5>BASE</h5>
+                    <h5>APPAREL</h5>
+                </div>
+            </section>
+
+            <section class="background-picture">
+                <div class="pic">
+
+                </div>
+            </section>
+        </header>
+
+
+        <main>
+            <article>
+                <h1>WE'RE</h1>
+                <h1>COMING</h1>
+                <h1>SOON</h1>
+                <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
+                    up-to-date with announcements and our launch deals.</p>
+            </article>
+
+            <section class="validation">
+                <input type='text' onkeydown="Reset()" id="email" name="mejl" placeholder="Email Adress">
+                <button type=" button" onclick="ValidateEmail()"><img src="icon-arrow.svg" alt="" srcset=""></button>
+                <img src="icon-error.svg" id="errorIMG">
+                <p id="demo"></p>
+            </section>
+        </main>
+    </div>
+
 
 
 
