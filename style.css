@@ -220,12 +220,18 @@ h1{
         font-size: 1rem;
     }
 
+    header{
+        margin-top: 0;
+    }
+
     h1{
         font-size: 4rem;
     }
 
     h5{
-        font-size: 2rem;
+        font-size: 1.1rem;
+        line-height: 20px;
+        letter-spacing: 6px;
     }
     
     
